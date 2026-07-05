@@ -1,0 +1,65 @@
+# 1.Strings slicing
+print("1.Strings slicing")
+# 1.Store "Python" in a variable and print: First character Last character
+print("1.Store 'Python' in a variable and print: First character Last character")
+
+
+string1=  'Python'
+print(string1)
+print("First character", string1[0])
+print("last character", string1[-1])
+
+# 2.Print the first 6 characters.
+print("2.Print the first 6 characters.")
+text = "PythonProgramming"
+print(text[0:7])
+
+# 3.Print only: Programming
+print("3.Print only: Programming")
+print(text[6:])
+
+# 4.Print every second character.
+print(len(text))
+print(text[0 : :2])
+
+# 4.Reverse the string using slicing.
+
+print("4.Reverse the string using slicing.")
+print(text[ : :-1])
+# 2. Modify Strings
+print("2. Modify Strings")
+
+# 1.Convert the following string into uppercase.
+print("1.Convert the following string into uppercase.")
+print(text.upper())
+
+# 2.Convert the following string into lowercase.
+print("2.Convert the following string into lowercase.")
+print(text.lower())
+
+# 3.Remove extra spaces.
+print("3.Remove extra spaces.")
+word="   mahek " 
+print(word.strip(" "))
+
+# 4.Replace "Java" with "Python".
+print("4.Replace Java with Python.")
+text1 = "I love Java"
+print(text1.replace("Java","Python"))
+
+# 3.Concatenate Strings 
+print("3.Concatenate Strings ")
+
+# 1.Join two strings.
+print("1.Join two strings.")
+
+a = "Hello "
+b = "World"
+print(a + b)
+
+# 4. Format Strings
+print("4. Format Strings")
+
+name = "Mahek"
+age = 21
+print(f"my name is {name} and age is {age}")
