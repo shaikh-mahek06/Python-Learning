@@ -29,12 +29,12 @@ print(my_tuple.index(6))
 
 #7.Packing & unpacking.
 print("7.Packing & unpacking.")
-tup3=("mango","apple","jamun")
-a,b,c= tup3
+tup3=("mango","apple","jamun","watermelon")
+a,b,c,d= tup3
 print("A : ",a)
 print("B : ",b)
 print("C : ",c)
-
+print("D : ",d)
 #8.Swap two variables using tuple unpacking.
 print("8.Swap two variables using tuple unpacking. ") 
 a,b=b,a
@@ -50,5 +50,42 @@ print("list : ",type(lst))
 tup4=tuple(lst)
 print("tuple : ",type(tup4))
 
+# 10.	Reverse a tuple. 
+print("10.Reverse a tuple. ")
 
+print(tup3[::-1])
 
+# 11.Find largest element. 
+print(" 11.Find largest element. ")
+
+largest=[0]
+for word in tup3:
+    if len(word)>len(largest):
+        largest=word
+print("largest element : ",largest)
+
+# 12.Find smallest element. 
+print(" 12.Find smallest element. ")
+smallest=tup3[0]
+
+for word in  tup3:
+    if len(word) < len(smallest):
+        smallest=word
+
+print("smallest element : ",smallest)
+
+# 13.Membership (in, not in). 
+print(" 13.Membership (in, not in).")
+print("orange" in tup3)
+print("orange" not in tup3)
+
+# 14.	Concatenate two tuples. 
+print("14.Concatenate two tuples. ")
+tup5=("mahek ")
+tup6=("shaikh")
+tup7=tup5+tup6
+print(tup7)
+
+#15. sum() use
+tup8=(1,2,3,4,5)
+print(sum(tup8))
