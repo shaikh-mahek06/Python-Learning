@@ -89,3 +89,7 @@ print(tup7)
 #15. sum() use
 tup8=(1,2,3,4,5)
 print(sum(tup8))
+
+# 16 Create a list of integers and sort it in ascending order.
+print("16 Create a list of integers and sort it in ascending order.")
+print(tuple(sorted((tup8))))
