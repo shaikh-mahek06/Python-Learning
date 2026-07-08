@@ -1,4 +1,4 @@
-# Build a simple calculator using match-case.
+# 1.Build a simple calculator using match-case.
 num1=int(input("Enter the number 1 : "))
 num2=int(input("Enter the number 2 : "))
 print("Select operations")
@@ -55,7 +55,7 @@ match choice:
 3. Withdraw
 4. Exit
 """
-print("Build a simple ATM menu using match-case.")
+print("3.Build a simple ATM menu using match-case.")
 
 print("1.Balance")
 print("2.Deposit")

@@ -45,7 +45,7 @@ while True:
     elif choice==3:
         break
 
-"""Ask the user to enter a password.
+"""3.Ask the user to enter a password.
 The program should keep asking until the correct password is entered.
 Use a while loop.
 """
@@ -58,7 +58,7 @@ while True:
     else:
         print("Wrong password try again") 
     
-# Guess the number game.
+#4 Guess the number game.
 print("Guess the number game between 1-100")
 
 number=38
