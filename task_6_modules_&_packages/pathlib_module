@@ -1,0 +1,43 @@
+
+# 1. Create a Path object
+print("1. Create a Path object")
+from pathlib import  Path
+path = Path("notes.txt")
+
+print(path)
+
+# 2. Check if a file or folder exists
+print("2. Check if a file or folder exists")
+print(path.exists())
+
+# 3. Check whether it is a file
+print("3. Check whether it is a file")
+print(path.is_file())
+
+# 4 Check whether it is a folder
+print("4. Check whether it is a folder")
+print(path.is_dir())
+
+# 5. Create a folder
+print("5. Create a folder")
+folder = Path("path_folder")
+
+folder.mkdir(exist_ok=True)
+
+print("Folder created successfully.")
+
+# 6. create a file
+file= Path("notes.txt")
+file.touch()
+
+print(file.is_file())
+
+# 7.rename file
+file.rename("py_notes.txt")
+
+# 8. Delete a file
+file.unlink()
+
+# 9. Get the current working directory
+
+print(Path.cwd())
