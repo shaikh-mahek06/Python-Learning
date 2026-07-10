@@ -93,3 +93,13 @@ print(sum(tup8))
 # 16 Create a list of integers and sort it in ascending order.
 print("16 Create a list of integers and sort it in ascending order.")
 print(tuple(sorted((tup8))))
+
+# 17.nested tuple
+student = (
+    ("Mahek", 21),
+    ("Rahul", 22),
+    ("Neha", 20)
+)
+
+print(student[0])
+print(student[1][0])
