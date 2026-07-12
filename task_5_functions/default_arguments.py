@@ -10,7 +10,7 @@ print('2.Create a function with two default arguments.' )
 def add(a=0,b=0):
     print(a+b)
 
-add()
+add(4,5)
 
 # 3.Override the default values.
 print("# 3.Override the default values.")
@@ -24,7 +24,7 @@ def intrest(principal,year,rate=10):
     calc_int=(principal*year*rate)/100
     print(calc_int)
 
-intrest(2000,3)
+intrest(2000,3,6)
 
 # 5.Print employee details using default department. 
 print("5.Print employee details using default department. ")

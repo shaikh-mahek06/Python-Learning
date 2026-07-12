@@ -3,7 +3,7 @@ print("1: Print all values")
 def func(*args):
     print(args)
 
-func(7,6,5,4,3)
+func(7,6,5,4,3,6)
 
 # 2: Print all values one by one
 print("2: Print all values one by one")
