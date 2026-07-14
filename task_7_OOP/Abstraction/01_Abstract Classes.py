@@ -1,8 +1,8 @@
 from abc import ABC, abstractmethod
 
-class animal(ABC):
+class animal(ABC):  # abstract class
     @abstractmethod
-    def sound (self):
+    def sound (self):              # abstract method
         pass
 
 
