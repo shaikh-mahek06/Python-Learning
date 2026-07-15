@@ -21,7 +21,7 @@ class shape(ABC):
 
 class square(shape):
     def area(self):
-        print("Area=side*side")
+        print("Area=side*side") 
 
 class rectangle(shape):
     def area(self):
@@ -63,7 +63,7 @@ class Payment(ABC):
 class UPI(Payment):
 
     def pay(self):
-        print("Payment Successful using UPI")
+        print("Payment Successful using UPI!!!")
 
 u = UPI()
-u.pay()
+u.pay() 
