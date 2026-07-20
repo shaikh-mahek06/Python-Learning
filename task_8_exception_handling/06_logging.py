@@ -48,5 +48,5 @@ try:
     print(10 / 0)
 
 except Exception:
-    logging.exception("An Exception Occurred")
+    logging.exception("An Exception Occurred.")
     
